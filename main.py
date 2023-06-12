@@ -11,7 +11,7 @@ sections=""
 course=input("enter the course code: ")
 
 wb= xlwt.Workbook()
-ws = wb.add_sheet('A Test Sheet')
+ws = wb.add_sheet('Sheet')
 style1= xlwt.easyxf("pattern: pattern solid, fore_color green; font: color white; align: horiz center")
 style2= xlwt.easyxf("pattern: pattern solid, fore_color white; font: color black; align: horiz center")
 
